@@ -7,7 +7,7 @@ export default StyleSheet.create({
   },
   input: {
     padding: 10,
-    backgroundColor: "#e3e3e3",
+    backgroundColor: "#EAEAEA",
     borderRadius: 5,
     flex: 1,
   },

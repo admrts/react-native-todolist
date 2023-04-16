@@ -8,6 +8,4 @@ Basic todo list exercise with react-native.
 
 ### ScreenShots
 
-<img src="./assets/ss1.png" width="150"> 
-<img src="./assets/ss2.png" width="150"> 
-<img src="./assets/ss3.png" width="150">
+<img src="./assets/ss1.png" width="150"> <img src="./assets/ss2.png" width="150"> <img src="./assets/ss3.png" width="150">

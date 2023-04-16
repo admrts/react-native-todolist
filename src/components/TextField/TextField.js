@@ -21,6 +21,7 @@ const TextField = ({ setTodoList, todoList }) => {
         value={todo}
         onChangeText={setTodo}
         placeholderTextColor="#7d7b7b"
+        autoCorrect={false}
       />
       <Button title="Add" onPress={addTodo} color="#08D9D6" />
     </KeyboardAvoidingView>

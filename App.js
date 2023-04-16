@@ -1,15 +1,22 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import TextField from "./src/components/TextField/";
 import Header from "./src/components/Header/";
 import TodoList from "./src/components/TodoList/";
+import { useState } from "react";
 
 export default function App() {
+  const [todoList, setTodoList] = useState([
+    {
+      todoItem: "Yapılacak 1",
+      isDone: false,
+      id: 1,
+    },
+  ]);
   return (
     <SafeAreaView style={styles.container}>
-      <Header />
-      <TodoList />
-      <TextField />
+      <Header todoList={todoList} />
+      <TodoList todoList={todoList} setTodoList={setTodoList} />
+      <TextField setTodoList={setTodoList} todoList={todoList} />
     </SafeAreaView>
   );
 }

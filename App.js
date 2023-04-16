@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function App() {
   const [todoList, setTodoList] = useState([
     {
-      todoItem: "Yapılacak 1",
+      todoItem: "Work-out",
       isDone: false,
       id: 1,
     },

@@ -20,7 +20,7 @@ const TextField = ({ setTodoList, todoList }) => {
         placeholder="Add Todo"
         value={todo}
         onChangeText={setTodo}
-        placeholderTextColor="#FF2E63"
+        placeholderTextColor="#7d7b7b"
       />
       <Button title="Add" onPress={addTodo} color="#08D9D6" />
     </KeyboardAvoidingView>

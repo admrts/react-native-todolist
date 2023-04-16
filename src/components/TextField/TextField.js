@@ -1,12 +1,15 @@
-import { View, TextInput, Button } from "react-native";
+import { View, TextInput, Button, KeyboardAvoidingView } from "react-native";
 import styles from "./TextField.styles";
 
 const TextField = () => {
   return (
-    <View style={styles.inputWrapper}>
+    <KeyboardAvoidingView
+      behavior={Platform.OS === "ios" ? "padding" : "height"}
+      style={styles.inputWrapper}
+    >
       <TextInput style={styles.input} placeholder="Add Todo" />
       <Button title="Add" />
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 

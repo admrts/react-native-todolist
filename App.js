@@ -1,11 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import TextField from "./src/components/TextField/";
+import Header from "./src/components/Header/";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Open up App.js to start working your app!</Text>
+      <Header />
       <TextField />
     </SafeAreaView>
   );

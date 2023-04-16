@@ -8,8 +8,10 @@ export default StyleSheet.create({
   },
   header: {
     fontSize: 30,
+    color: "#FF2E63",
   },
   count: {
     fontSize: 30,
+    color: "#FF2E63",
   },
 });

@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   inputWrapper: {
     flexDirection: "row",
-    marginHorizontal: 10,
+    width: "90%",
   },
   input: {
     padding: 10,

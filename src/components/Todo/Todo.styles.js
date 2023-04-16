@@ -7,6 +7,7 @@ export default StyleSheet.create({
     borderRadius: 10,
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "center",
     paddingHorizontal: 10,
   },
   todoWrapperDone: {
@@ -15,12 +16,14 @@ export default StyleSheet.create({
     borderRadius: 10,
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "center",
     paddingHorizontal: 10,
   },
   todoText: {
     color: "#FF2E63",
     fontSize: 25,
     padding: 5,
+    flex: 1,
   },
   todoTextDone: {
     color: "#FF2E63",
@@ -28,5 +31,9 @@ export default StyleSheet.create({
     padding: 5,
     textDecorationLine: "line-through",
     opacity: 0.5,
+    flex: 1,
+  },
+  buttonWrapper: {
+    flexDirection: "row",
   },
 });
